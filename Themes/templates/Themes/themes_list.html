@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Themes List</title>
+</head>
+<body>
+    <h1>Themes List</h1>
+    <ul>
+        {% for theme in themes %}
+            <li>{{ theme.name }} - {{ theme.description }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

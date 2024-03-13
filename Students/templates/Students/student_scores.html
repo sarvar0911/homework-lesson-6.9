@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Scores</title>
+</head>
+<body>
+    <h1>{{ student.name }}'s Scores</h1>
+    <ul>
+        {% for score in scores %}
+            <li>{{ score.score }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
